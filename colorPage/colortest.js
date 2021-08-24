@@ -47,7 +47,7 @@ function createItem(color, desc){
 
 const paletteContainer = document.querySelector(".palette");
 
-fetch("colorPage/colors.json").then(response => {
+fetch("https://4000-plum-asp-pvhg4myu.ws-us16.gitpod.io/colorPage/colors.json").then(response => {
 	return response.json();
 }).then(colorList => {
 	for(const{desc, color} of colorList){
