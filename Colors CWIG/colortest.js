@@ -47,7 +47,7 @@ function createItem(color, desc){
 
 const paletteContainer = document.querySelector(".palette");
 
-fetch("https://4000-harlequin-aardwolf-5gkd155d.ws-us16.gitpod.io/colorPage/colors.json").then(response => {
+fetch("https://4000-bronze-canidae-dct7afjw.ws-us16.gitpod.io/colorPage/colors.json").then(response => {
 	return response.json();
 }).then(colorList => {
 	for(const{desc, color} of colorList){
