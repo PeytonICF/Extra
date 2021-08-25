@@ -2,6 +2,7 @@
 /* CSS Document */
 body{
 	margin: 15px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .palette,
@@ -38,4 +39,8 @@ body{
 	border: 1 px solid #ddd;
 	border-top: none;
 	outline: none;
+}
+
+.nav{
+	float: right;
 }
